@@ -7,11 +7,11 @@ public class ResponseStructure {
 
     String slackUsername;
     Integer result;
-    ArithmeticOperationType operation_type;
+    String operation_type;
 
     public ResponseStructure() {}
 
-    public ResponseStructure(String slackUsername, Integer result, ArithmeticOperationType operation_type) {
+    public ResponseStructure(String slackUsername, Integer result, String operation_type) {
 
         this.slackUsername = slackUsername;
         this.result = result;
@@ -34,11 +34,11 @@ public class ResponseStructure {
         return result;
     }
 
-    public void setOperation_type(ArithmeticOperationType operation_type) {
+    public void setOperation_type(String operation_type) {
         this.operation_type = operation_type;
     }
 
-    public ArithmeticOperationType getOperation_type() {
+    public String getOperation_type() {
         return operation_type;
     }
 

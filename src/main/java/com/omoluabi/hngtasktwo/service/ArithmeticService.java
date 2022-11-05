@@ -35,7 +35,7 @@ public class ArithmeticService {
             result = x+y;
 
             responseStructure.setSlackUsername("Omolluabii");
-            responseStructure.setOperation_type(ArithmeticOperationType.ADDITION);
+            responseStructure.setOperation_type("ADDITION");
             responseStructure.setResult(result);
 
             return responseStructure;
@@ -45,7 +45,7 @@ public class ArithmeticService {
             result = x-y;
 
             responseStructure.setSlackUsername("Omolluabii");
-            responseStructure.setOperation_type(ArithmeticOperationType.SUBTRACTION);
+            responseStructure.setOperation_type("SUBTRACTION");
             responseStructure.setResult(result);
 
             return responseStructure;
@@ -55,7 +55,7 @@ public class ArithmeticService {
             result = x*y;
 
             responseStructure.setSlackUsername("omolluabii");
-            responseStructure.setOperation_type(ArithmeticOperationType.MULTIPLICATION);
+            responseStructure.setOperation_type("MULTIPLICATION");
             responseStructure.setResult(result);
 
             return responseStructure;
