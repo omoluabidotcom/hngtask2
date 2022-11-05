@@ -54,7 +54,7 @@ public class ArithmeticService {
         if(operationType == ArithmeticOperationType.MULTIPLICATION) {
             result = x*y;
 
-            responseStructure.setSlackUsername("Omolluabii");
+            responseStructure.setSlackUsername("omolluabii");
             responseStructure.setOperation_type(ArithmeticOperationType.MULTIPLICATION);
             responseStructure.setResult(result);
 
